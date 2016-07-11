@@ -1,0 +1,23 @@
+<!-- CSS3 code, to use a img as a fixed background, filters used for IE -->
+
+<style>
+html { 
+  background: url(http://www.strangebeaver.com/wp-content/uploads/2014/06/wpw64/wallpaper-6-4-9.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+    h1{ 
+      text-shadow: 1px 1px 8px #002200;
+      font-size: 72px;
+      color: white;
+      text-align: center;
+}
+          h2 {
+            background: rgb(0,0,0);
+            background: rgba(0,0,0,0.3);
+          }
+            </style>
