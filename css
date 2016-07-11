@@ -10,6 +10,7 @@ html {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
 -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
 }
+
     h1{ 
       text-shadow: 1px 1px 8px #002200;
       font-size: 72px;
@@ -97,15 +98,16 @@ html {
             color: #AA88DD;
       }
           .requirements{
-            display:block;
+            display: block;
             float: right;
-            background:url(http://m7.i.pbase.com/o4/86/647486/1/61727317.T4Plwx6E.SleepingPandaMeiSheng120.jpg)no-repeat;
+            padding: 5px;    
             max-width: 50%;
-            max-height: auto;
             border-radius: 10px;
             text-align: right;
             text-shadow: 1px 1px 8px #000000;
-            color: #8B0000;
+            background: rgb(245,222,179);
+            background: rgba(245,222,179,.5)no-repeat;
+            color: #EFEFEF;
           }
   h3{
       text-align: center;
